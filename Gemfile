@@ -56,6 +56,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'rubocop', '~> 1.48', require: false
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
@@ -74,3 +75,5 @@ group :test do
 end
 
 gem "hotwire-rails", "~> 0.1.3"
+
+gem "devise", "~> 4.9"
